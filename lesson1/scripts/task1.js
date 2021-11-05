@@ -1,13 +1,13 @@
 function summ () {
-    let n = prompt();
+    let n = prompt("Ведіть число:");
     let sum = 0;
+    let str = "";
     for (i = 0;i <= n; i++) {
-        sum = sum + i;
-    console.log(i + "+");
-    sum += i;
+        sum += i;
+        str += i + " + ";
     }
-    sum += n;
-    console.log(n + "=" + sum);
+    str += " = " + sum;
+    console.log(str);
 
 }
     
